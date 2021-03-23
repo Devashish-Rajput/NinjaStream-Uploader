@@ -19,7 +19,6 @@ print(resp)
 x=resp['result']
 
 for z in filepaths:
-  if z.find('.ipynb')==-1:
     file = { 'file':open(z, 'rb') }
 
     r = requests.post(x, files=file,data=data)

@@ -8,8 +8,8 @@ url = "https://api.ninjastream.to/api/file/upload/generate"
 
 path='/content/drive/MyDrive/myBot1/'
 filepaths = [os.path.join(path, file) for file in os.listdir(path)]
-data = { 'apiId' : "vhkK7NrGb2NYlFv3QgLHDhA6w2rDq6U6KEhgqNAMnCXxKHUAOt",
-         'apiSecretId' : "vH9wTA5lkXtoGDEkFpwPCar85VL4t5JN8XeafVav1WsYCYASLj"
+data = { 'apiId' : "Your Apid ",
+         'apiSecretId' : "Your apisecretid"
         }
 
 r = requests.post(url,data=data)

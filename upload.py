@@ -6,7 +6,7 @@ import json
 
 url = "https://api.ninjastream.to/api/file/upload/generate"
 
-path='/content/drive/MyDrive/myBot1/'
+path='Your path to files' # add path your video files
 filepaths = [os.path.join(path, file) for file in os.listdir(path)]
 data = { 'apiId' : "Your Apid ",
          'apiSecretId' : "Your apisecretid"
